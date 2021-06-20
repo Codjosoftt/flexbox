@@ -16,6 +16,7 @@
     height: 200px;
     background-color: rgb(8, 8, 136);
     order: 4;
+    flex-grow: 1; /*makes responsive if all grow 1*/
 }
 .child2{
     width: 200px;
@@ -35,6 +36,7 @@
     height: 200px;
     background-color: rgb(238, 209, 44);
     order: 0;
+    display: none;
 }
 
 h1{
