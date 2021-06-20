@@ -9,6 +9,8 @@
     height: 100vh;
     border: 20px solid rgb(0, 0, 0);
     display: flex;
+    flex-wrap: wrap;/*in this case the flex wrap will insist on the with being 300px
+      if the space is not up to 300px then it will jump to the next section to fill 300px;*/
    }
 
 .child1{
