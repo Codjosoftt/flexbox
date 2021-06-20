@@ -15,20 +15,28 @@
     width: 200px;
     height: 200px;
     background-color: rgb(8, 8, 136);
+    order: 4;
 }
 .child2{
     width: 200px;
     height: 200px;
     background-color: rgb(59, 136, 8);
+    order: 3;
 }
 .child3{
     width: 200px;
     height: 200px;
     background-color: rgb(136, 8, 104);
+    order: 2;
 }
 
 .child4{
     width: 200px;
     height: 200px;
     background-color: rgb(238, 209, 44);
+    order: 0;
+}
+
+h1{
+    color: white;
 }
