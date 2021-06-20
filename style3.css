@@ -17,8 +17,8 @@
     background-color: rgb(8, 8, 136);
     order: 4;
   /*  flex-grow: 1; /*makes responsive if all grow 1*/
-    flex: 1 1 300px; /*useful for responsive web design*/
-
+    flex: 1 1 500px; /*useful for responsive web design*/
+  /* the 300px is for the width of the flexbox*/
 }
 .child2{
     width: 200px;
