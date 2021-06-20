@@ -9,3 +9,19 @@
     height: 100vh;
     border: 20pz solid rgb(0, 0, 0);
 }
+
+.child1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 8, 136);
+}
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(59, 136, 8);
+}
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(136, 8, 104);
+}
