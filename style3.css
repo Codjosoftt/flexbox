@@ -16,19 +16,25 @@
     height: 200px;
     background-color: rgb(8, 8, 136);
     order: 4;
-    flex-grow: 1; /*makes responsive if all grow 1*/
+  /*  flex-grow: 1; /*makes responsive if all grow 1*/
+    flex: 1 1 300px; /*useful for responsive web design*/
+
 }
 .child2{
     width: 200px;
     height: 200px;
     background-color: rgb(59, 136, 8);
     order: 3;
+    flex: 1 1 300px;
+
 }
 .child3{
     width: 200px;
     height: 200px;
     background-color: rgb(136, 8, 104);
     order: 2;
+    flex: 1 1 300px;
+    /* flex: 1 0 auto; */
 }
 
 .child4{
@@ -37,6 +43,7 @@
     background-color: rgb(238, 209, 44);
     order: 0;
     display: none;
+    flex-grow: 1;
 }
 
 h1{
